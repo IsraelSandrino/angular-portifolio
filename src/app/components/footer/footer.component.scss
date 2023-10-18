@@ -1,0 +1,21 @@
+footer {
+	left: 0;
+	width: 100%;
+}
+
+.footer__content-image {
+	height: 100px;
+	background: radial-gradient(176.99% 98.62% at 17.01% 15.14%, #0D0D0D 0%, #000128 100%);
+}
+
+.footer__content-image > img {
+	height: 40px;
+}
+
+.footer__content-copyright {
+	height: 40px;
+}
+
+.footer__content-copyright > span {
+	font-size: 12px;
+}
