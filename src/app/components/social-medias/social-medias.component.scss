@@ -1,0 +1,18 @@
+.social__media-content {
+	margin: 40px 0;
+}
+
+.social__media-content > a {
+	border: 1px solid rgba(240, 242, 245, 0.15);
+	padding: 12px;
+	border-radius: 50px;
+	background: rgba(224, 224, 224, 0.05);
+}
+
+.social__media-content > a:hover {
+	border: 1px solid #44C4FF;
+}
+
+.social__media-icon {
+	height: 24px;
+}

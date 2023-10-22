@@ -1,62 +1,49 @@
 <section>
-	<div>
-		<h2>MINHAS HABILIDADES</h2>
+	<div class="skills__content-title">
+		<h2>{{ title }}</h2>
 	</div>
 
-	<div>
+	<div class="skills__content-text">
 		<p>
-			Busco criar interfaces visualmente deslumbrantes e intuitivas, que não apenas atendam, mas superem as expectativas
-			dos usuários. Comprometido com a excelência, meu objetivo é encantar e deixar uma marca duradoura, combinando
-			dedicação e amor.
+			{{ text }}
 		</p>
 	</div>
 
-	<div>
+	<div class="skills__content-services">
 		<div>
-			<div>
-				<img src="../assets/images/design-icon.png" alt="item">
-			</div>
-			<div>
-				<h6>Web Design</h6>
-			</div>
-			<div>
-				<p>Criação de telas e identidade visual para o projeto, considerando quem vai utilizar o produto</p>
-			</div>
+			<app-service-card
+				serviceIcon="../assets/images/design-icon.png"
+				title="web design"
+				service="Criação de telas e identidade visual para o projeto, considerando quem vai utilizar o produto"
+			>
+			</app-service-card>
 		</div>
 
 		<div>
-			<div>
-				<img src="../assets/images/dev-icon.png" alt="item">
-			</div>
-			<div>
-				<h6>Desenvolvimento Web</h6>
-			</div>
-			<div>
-				<p>Desenvolvimento de sites e funcionalidades web utilizando linguagens de programação</p>
-			</div>
+			<app-service-card
+				serviceIcon="../assets/images/dev-icon.png"
+				title="desenvolvimento web"
+				service="Criação de telas e identidade visual para o projeto, considerando quem vai utilizar o produto"
+			>
+			</app-service-card>
 		</div>
 
 		<div>
-			<div>
-				<img src="../assets/images/analysis-icon.png" alt="item">
-			</div>
-			<div>
-				<h6>Análise de Dados</h6>
-			</div>
-			<div>
-				<p>Interpretação e análise de dados para extrair insights precisos, além da criação de dashboards.</p>
-			</div>
+			<app-service-card
+				serviceIcon="../assets/images/analysis-icon.png"
+				title="análise de dados"
+				service="Criação de telas e identidade visual para o projeto, considerando quem vai utilizar o produto"
+			>
+			</app-service-card>
 		</div>
 	</div>
 
-	<hr>
-
 	<div>
-		<div>
+		<div class="text-center">
 			<h5>Feramentas utilizadas</h5>
 		</div>
 		<div>
-			AQUI VAI UM COMPONENTE
+			<app-skills-card></app-skills-card>
 		</div>
 	</div>
 </section>

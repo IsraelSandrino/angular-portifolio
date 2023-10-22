@@ -1,7 +1,21 @@
-h1 > span {
-	background: linear-gradient(90deg, #62abd5 0%, #35bed0 50.52%, #37fcb7 100%);
-	background-clip: text;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font-weight: 600;
+.index__content > div {
+	margin: 36px 0;
+}
+
+.index__content-title {
+	margin-top: 48px !important;
+}
+
+.index__content-title h1 {
+	font-size: 48px;
+	font-weight: 400;
+}
+
+.index__content-title h1 > span {
+	color: #44C4FF;
+	font-weight: 600 ;
+}
+
+.index__content-image {
+	margin: 48px 0;
 }

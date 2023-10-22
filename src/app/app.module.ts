@@ -10,6 +10,10 @@ import { ProjectsComponent } from './pages/projects/projects.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ButtonComponent } from './components/button/button.component';
+import { SocialMediasComponent } from './components/social-medias/social-medias.component';
+import { ServiceCardComponent } from './components/service-card/service-card.component';
+import { SkillsCardComponent } from './components/skills-card/skills-card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +24,11 @@ import { FooterComponent } from './components/footer/footer.component';
     ProjectsComponent,
     ContactComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    ButtonComponent,
+    SocialMediasComponent,
+    ServiceCardComponent,
+    SkillsCardComponent
   ],
   imports: [
     BrowserModule,
