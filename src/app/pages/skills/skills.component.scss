@@ -1,15 +1,22 @@
-.skills__content-title {
+.skills__content-title > h2 {
 	font-size: 32px;
 	color: #44C4FF;
 }
 
 .skills__content-text {
 	color: #CECECE;
-	margin-top: 40px;
-	margin-bottom: 32px;
+	margin-top: 24px;
+	margin-bottom: 40px;
 }
 
 .skills__content-services > div {
 	margin: 32px 0;
 }
 
+.skills__content {
+	margin-top: 60px;
+}
+
+.skills__content > div > h5{
+	margin-bottom: 32px;
+}

@@ -14,6 +14,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { SocialMediasComponent } from './components/social-medias/social-medias.component';
 import { ServiceCardComponent } from './components/service-card/service-card.component';
 import { SkillsCardComponent } from './components/skills-card/skills-card.component';
+import { AccordionComponent } from './components/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { SkillsCardComponent } from './components/skills-card/skills-card.compon
     ButtonComponent,
     SocialMediasComponent,
     ServiceCardComponent,
-    SkillsCardComponent
+    SkillsCardComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
