@@ -5,6 +5,10 @@
 	box-shadow: 0px 0px 2px 0px rgba(240, 242, 245, 0.25);
 }
 
+.about__content-image {
+	width: -webkit-fill-available;
+}
+
 .about__content-title {
 	margin-top: 48px;
 	margin-bottom: 0;

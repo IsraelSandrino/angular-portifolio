@@ -1,13 +1,33 @@
-.accordion-header {
-	background: #005177 !important;
-}
-
-.accordion-style {
+.accordion-button {
+	background-color: rgb(224, 224, 224, 0.05);
 	color: #F0F0F0;
 }
 
-.project__accordion-image {
-	width: 329px;
+.accordion-button:not(.collapsed) {
+	background-color: rgb(224, 224, 224, 0.25);
+}
+
+.accordion-header {
+	background: rgba(224, 224, 224, 0.05);
+}
+
+.accordion-item {
+	color: #CECECE;
+}
+
+.accordion-body {
+	text-align: justify;
+}
+
+.accordion-skills {
+	color: #F0F0F0;
+	font-weight: 500;
+	margin-top: 16px;
+	margin-bottom: 24px;
+}
+
+.accordion__project-name {
+	color: #44C4FF;
 }
 
 .project__accordion-image > img {

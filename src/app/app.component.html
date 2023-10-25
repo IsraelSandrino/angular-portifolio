@@ -1,36 +1,38 @@
-<app-navbar></app-navbar>
+<div class="container">
+	<app-navbar></app-navbar>
 
-<div class="content">
-	<section class="app_component-index">
-		<app-index></app-index>
-	</section>
+	<div class="content">
+		<section class="app_component-index">
+			<app-index></app-index>
+		</section>
 
-	<section class="app_component-about">
-		<app-about
-			title="Sobre"
-			subtitle="Frontend Developer & UI Designer"
-			text="Sou um entusiasta da tecnologia, apaixonado por desenvolver soluções inteligentes e elegantes.
-						Hoje, como Analista de Sistemas, aplico meus conhecimentos e experiência para criarsoluções inovadoras e eficientes."
-		></app-about>
-	</section>
+		<section class="app_component-about">
+			<app-about
+				title="Sobre"
+				subtitle="Frontend Developer & UI Designer"
+				text="Sou um entusiasta da tecnologia, apaixonado por desenvolver soluções inteligentes e elegantes.
+							Hoje, como Analista de Sistemas, aplico meus conhecimentos e experiência para criarsoluções inovadoras e eficientes."
+			></app-about>
+		</section>
 
-	<section class="app_component-skills">
+		<!-- <section class="app_component-skills">
 		<app-skills
 			title="Habilidades"
 			text="Busco criar interfaces visualmente deslumbrantes e intuitivas, que não apenas atendam, mas superem as expectativas dos usuários.
 						Comprometido com a excelência, meu objetivo é encantar e deixar uma marca duradoura, combinando dedicação e amor."
 		></app-skills>
-	</section>
+	</section> -->
 
-	<section class="app_component-projects">
+		<!-- <section class="app_component-projects">
 		<app-projects></app-projects>
-	</section>
+	</section> -->
 
-	<section>
+		<!-- <section>
 		<app-contact></app-contact>
-	</section>
+	</section> -->
+	</div>
+
+	<router-outlet></router-outlet>
+
+	<!-- <app-footer></app-footer> -->
 </div>
-
-<router-outlet></router-outlet>
-
-<app-footer></app-footer>
